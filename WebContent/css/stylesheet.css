@@ -1,0 +1,107 @@
+body{
+ 	background: url(../img/beachbackground.jpg) no-repeat 50% 50% fixed; 
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	font-family: arial;
+	line-height: 170%;
+	font-size: 15px;
+	text-shadow: 0px 2px 5px #888888;
+}
+
+#content{
+	margin: 0 10% 0 10%;
+}
+
+.tab{
+	min-width: 10%;
+	text-align: center;
+}
+
+h4{
+	text-shadow: 0px 5px 10px #888888;
+}
+
+.nobullets{
+    list-style-type: none;
+}
+
+.navigation, .content{
+	display: inline-block;
+}
+
+.navigation{
+	width: 100%;
+}
+
+#signature{
+	text-align: center;
+}
+
+img {
+	width: 40%;
+	box-shadow: 0px 5px 10px #888888;
+}
+
+.textwrapleft{
+	float:left;
+	margin:10px;
+}
+
+.textwrapright{
+	float:right;
+	margin:10px;
+}
+
+.smaller{
+	width:450px;
+	height:350px;
+}
+
+.carousel-inner img{
+	margin-left:auto;
+	margin-right:auto;
+	width: 500px;
+	height:100px;
+}
+.header{
+	text-align: center;
+	font-size: 25px;
+	background-color: white;
+	opacity: 0.5;
+}
+
+th{
+	text-align: left;
+	background-color: #33CCFF;
+}
+
+td{
+	width: 20%;
+}
+ 
+table tr:nth-child(even){
+	background-color: #CCFFFF;
+}
+
+.footer{
+	text-align: center;
+	color: white;
+	font-style: italic;
+	
+}
+/* .tab { */
+/* 	display: inline-block; */
+/* 	width: 12%; */
+/* 	text-align: center; */
+/* } */
+
+/* a:link { */
+/*     text-decoration: none; */
+/* } */
+
+/* a:HOVER { */
+/*     font-style: italic; */
+/*     font-weight: bold; */
+/* } */
